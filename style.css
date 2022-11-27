@@ -1,0 +1,108 @@
+   *{ /* APLICA ESTO SIEMPRE*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body    
+    {   
+        background-image: linear-gradient(to right top, #000000, #382936, #5b5477, #5c8ac1, #00c8ff);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    text
+    {
+        font-family: verdana;
+        font-weight: bold;
+        text-align: right;
+        font-size: 75px;
+        letter-spacing: 11px;
+        color: rgb(255, 255, 255);
+        text-shadow: rgb(0, 0, 0) 0px 4px 6px;
+    }
+
+    @keyframes cosito 
+    {
+        0% {
+        opacity:0;
+        }
+        100% {
+        opacity:1;
+        }
+    }
+
+    img
+    {
+        position: absolute;
+        z-index: 1000;
+        animation: cosito 14s; /* ANIMACION DE LA FOTO*/
+    }
+
+    /* COSAS DEFAULT PARA LA ANIMACION DEL PRELOADER*/
+    .lds-ring {
+        display: inline-block;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 80px;
+        height: 80px;
+    }
+    .lds-ring div {
+        box-sizing: border-box;
+        display: block;
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        margin: 8px;
+        border: 8px solid #fff;
+        border-radius: 50%;
+        animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+        border-color: #fff transparent transparent transparent;
+    }
+    .lds-ring div:nth-child(1) {
+        animation-delay: -0.45s;
+    }
+    .lds-ring div:nth-child(2) {
+        animation-delay: -0.3s;
+    }
+    .lds-ring div:nth-child(3) {
+        animation-delay: -0.15s;
+    }
+    @keyframes lds-ring {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    }
+
+
+
+/* ESTO TIENE Q IR ACA ABAJO (CREO) Y ES CODIGO ESCRITO X MI*/
+
+  .loader{
+    background-image: linear-gradient(to right top, #000000, #382936, #5b5477, #5c8ac1, #00c8ff);
+    background-size: auto;
+    background-position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    clip-path: circle(150% at 100% 0);
+    transition: clip-path 0.001s ease-in-out ;
+}
+
+.loader2{
+    clip-path: circle(0% at 100% 0);
+}
+
+
+
+      
