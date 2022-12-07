@@ -17,9 +17,9 @@
         font-weight: bold;
         text-align: right;
         font-size: 10vw;
-        letter-spacing: 10vw;
+        letter-spacing: 1vw;
         color: rgb(255, 255, 255);
-        text-shadow: rgb(0, 0, 0) 0vw 4vw 6vw;
+        text-shadow: rgb(0, 0, 0) 1vw 1vw 1vw;
     }
 
     @keyframes cosito 
@@ -40,22 +40,14 @@
     }
 
     /* COSAS DEFAULT PARA LA ANIMACION DEL PRELOADER*/
-    .lds-ring {
-        display: inline-block;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        width: 80px;
-        height: 80px;
-    }
     .lds-ring div {
         box-sizing: border-box;
         display: block;
         position: absolute;
-        width: 64px;
-        height: 64px;
-        margin: 8px;
-        border: 8px solid #fff;
+        width: calc((10vh + 10vw)/2);
+        height: calc((10vh + 10vw)/2);
+        margin: calc((2vh + 2vw)/2);
+        border: calc((1vh + 1vw)/2) solid #fff;
         border-radius: 50%;
         animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
         border-color: #fff transparent transparent transparent;
