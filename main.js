@@ -4,7 +4,7 @@ window.addEventListener("load", function(){
    QUE CAMBIA EL LOADER POR LOADER2 */
     setTimeout(() => {
         document.getElementById("loader").classList.toggle("loader2")
-      }, 2000);
+      }, 3230);
     
 })
 
