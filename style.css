@@ -145,7 +145,7 @@ img
 {
     width: calc(((2vw+2vh))/(2)*(65));
     height: calc(((2vw+2vh))/(2)*(92));
-    padding: 2vw;
+    margin: 3vw;
     position:relative;
     z-index: 1000;
     animation: cosito 13s; /* ANIMACION DE LA FOTO*/
