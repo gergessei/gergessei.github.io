@@ -84,8 +84,6 @@ body {
 {
     width: 10vw;
     height: 10vh;
-    padding-left: 50px;
-    padding-top: 65px;
 }
 
 .lds-ring div {
@@ -135,7 +133,7 @@ clip-path: circle(0% at 100% 0);
 }
 
 h1{
-    padding: 8vh;
+    padding: 1vw;
     font-family: 'Bangers', cursive;
 }
 
@@ -147,7 +145,7 @@ img
 {
     width: calc(((2vw+2vh))/(2)*(65));
     height: calc(((2vw+2vh))/(2)*(92));
-    padding: 8vw;
+    padding: 1vw;
     position:relative;
     z-index: 1000;
     animation: cosito 13s; /* ANIMACION DE LA FOTO*/
@@ -165,7 +163,7 @@ text
 }
 
 Button{
-     padding: 8vw;
+     padding: 1vw;
      width: calc(((2vw+2vh))/(2)*(65));
 }
 @keyframes lds-ring {
