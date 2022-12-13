@@ -135,6 +135,7 @@ clip-path: circle(0% at 100% 0);
 }
 
 h1{
+    padding: 1vh;
     font-family: 'Bangers', cursive;
 }
 
@@ -144,8 +145,8 @@ h2{
 
 img
 {
-    width: calc(((1vw+1vh))/(2)*(65));
-    height: calc(((1vw+1vh))/(2)*(92));
+    width: calc(((2vw+2vh))/(2)*(65));
+    height: calc(((2vw+2vh))/(2)*(92));
     padding: 1vh;
     position:relative;
     z-index: 1000;
@@ -163,6 +164,10 @@ text
     text-shadow: rgb(0, 0, 0) 1vw 1vw 1vw;
 }
 
+Button{
+     padding: 1vh;
+     width: calc(((2vw+2vh))/(2)*(65));
+}
 @keyframes lds-ring {
     0% {
     transform: rotate(0deg);
