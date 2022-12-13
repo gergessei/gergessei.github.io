@@ -135,7 +135,7 @@ clip-path: circle(0% at 100% 0);
 }
 
 h1{
-    padding: 1vh;
+    padding: 8vh;
     font-family: 'Bangers', cursive;
 }
 
@@ -147,7 +147,7 @@ img
 {
     width: calc(((2vw+2vh))/(2)*(65));
     height: calc(((2vw+2vh))/(2)*(92));
-    padding: 18vh;
+    padding: 8vw;
     position:relative;
     z-index: 1000;
     animation: cosito 13s; /* ANIMACION DE LA FOTO*/
@@ -165,7 +165,7 @@ text
 }
 
 Button{
-     padding: 18vh;
+     padding: 8vw;
      width: calc(((2vw+2vh))/(2)*(65));
 }
 @keyframes lds-ring {
