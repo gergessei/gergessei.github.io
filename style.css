@@ -147,7 +147,7 @@ img
 {
     width: calc(((2vw+2vh))/(2)*(65));
     height: calc(((2vw+2vh))/(2)*(92));
-    padding: 1vh;
+    padding: 18vh;
     position:relative;
     z-index: 1000;
     animation: cosito 13s; /* ANIMACION DE LA FOTO*/
@@ -165,7 +165,7 @@ text
 }
 
 Button{
-     padding: 1vh;
+     padding: 18vh;
      width: calc(((2vw+2vh))/(2)*(65));
 }
 @keyframes lds-ring {
